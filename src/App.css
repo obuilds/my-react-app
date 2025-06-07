@@ -1,0 +1,19 @@
+.hero-section {
+  animation: fadeIn 1.2s ease-in-out;
+}
+.course-card {
+  transition: transform 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 8px 20px rgba(37, 35, 35, 0.1);
+
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(37, 35, 35, 0.1);
+}
+.fliter-scroll {
+  scrollbar-width: none;
+}
+.fliter-scroll::-webkit-scrollbar{
+  display: none;
+}

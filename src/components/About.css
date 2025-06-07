@@ -1,0 +1,53 @@
+p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+}
+
+.animate-fade-in-delay {
+    opacity: 0;
+    animation: fadeIn 1.2s ease-out
+    forwards;
+    animation-delay: 0.9s;
+}
+.animate-fade-in{
+    animation: fadeIn 2s ease-out
+    forwards;
+}
+.scroll-container{
+   display: flex; 
+   overflow-x: auto;
+   gap: 9px;
+   padding: 10px;
+   scroll-snap-type: x mandatory;
+}
+.scroll-container::-webkit-scrollbar{
+    display: none;
+}
+.scroll-image{
+    flex: 0 0 auto;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: start;
+    
+}
+.scroll-container:hover {
+    transform: scale(1.03);
+}
+a{
+    text-decoration: none;
+}
+hr{
+    color: white;
+}
+.scroll-logo{
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo-img{
+    color: rgba(131, 58, 180, 1);
+}
