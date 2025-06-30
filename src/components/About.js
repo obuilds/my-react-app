@@ -55,10 +55,10 @@ export default class About extends Component {
             <div className='bg-dark w-100'>
            <Row>
            <Col lg={7} >
-           <img src={about} alt="About" width='100%' height='500px' className=' image-fluid animate-fade-in-delay'/>
+           <img src={about} alt="About" width='100%' height='400px' className=' image-fluid animate-fade-in-delay'/>
            </Col>
            <Col lg={5}>
-            <Card className='mt-2 mb-4 bg-dark'>
+            <Card className='mt-2 mb-4 bg-dark shadow-lg'>
             <p className=' rounded animate-fade-in rounded mt-0 m-3 text-white'>
             <h1  className='text-center fw-bold mt-0'>About Us</h1>
                 At Edmoss, we belive that learning should be personal, accessible, and impactful.

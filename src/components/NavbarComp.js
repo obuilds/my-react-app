@@ -42,6 +42,7 @@ export default class NavbarComp extends Component {
                   <NavDropdown
                     title="About"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    data-bs-theme="dark"
                   >
                     <NavDropdown.Item as={Link} to={"/about"}>About</NavDropdown.Item>
                     <NavDropdown.Item   as={Link} to={"/contact"}>
@@ -52,6 +53,7 @@ export default class NavbarComp extends Component {
                   <NavDropdown
                     title="Sign-Up"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
+                    data-bs-theme="dark"
                   >
                     <NavDropdown.Item  href="#action3">Sign-Up</NavDropdown.Item>
                     <NavDropdown.Item  href="#action4">
